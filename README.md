@@ -39,6 +39,7 @@ The data/ directory included in this repository contains only one sample image  
 The full dataset used in training and evaluation is not published here due to size and storage limitations.
 
 If you'd like to test the pipeline on your own dataset, you can organize your images in the same folder-based format:
+
 data/
 
 ├── Almajhoul/
