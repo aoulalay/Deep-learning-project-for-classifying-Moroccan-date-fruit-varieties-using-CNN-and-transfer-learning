@@ -1,1 +1,1 @@
-# Deep-learning-project-for-classifying-Moroccan-date-fruit-varieties-using-CNN-and-transfer-learning
+# Moroccan Date Fruit Recognition Using Transfer Learning and Texture-Aware Color Attention
