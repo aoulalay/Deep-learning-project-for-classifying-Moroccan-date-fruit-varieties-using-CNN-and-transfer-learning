@@ -34,20 +34,29 @@ Contains images of individual Moroccan date fruits.
 Captured in semi-uncontrolled environments.
 Each image contains a single fruit, placed on simple backgrounds.
 Number of classes: 9 varieties.
+
 The data/ directory included in this repository contains only one sample image  per class for demonstration purposes.
 The full dataset used in training and evaluation is not published here due to size and storage limitations.
 
 If you'd like to test the pipeline on your own dataset, you can organize your images in the same folder-based format:
 data/
+
 ├── Almajhoul/
+
 │   ├── image1.jpg
+
 │   └── image2.jpg
+
 ├── Bofgous/
+
 │   ├── image1.jpg
+
 │   └── image2.jpg
+
 ...
+
 and update the code to match your number of classes
-(Dataset not included in repo due to size)
+
 
 # Technical Details
 Model: VGG19 pretrained on ImageNet
