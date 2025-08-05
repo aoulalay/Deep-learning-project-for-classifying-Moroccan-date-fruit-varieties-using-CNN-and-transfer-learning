@@ -56,3 +56,12 @@ Dataset split: 70% training, 15% validation, 15% testing
 Evaluation metric: test set accuracy
 
 # Best Accuracy:  94.81%
+
+loss evolution :
+<img width="381" height="316" alt="Sans titre" src="https://github.com/user-attachments/assets/fbb31285-0a04-40de-bffd-3b348d1f9954" />
+
+accuracy evolution : 
+<img width="381" height="316" alt="Sans titre-1" src="https://github.com/user-attachments/assets/2970b18d-7ac3-4fa4-aa16-d6040afaf1ae" />
+
+
+
