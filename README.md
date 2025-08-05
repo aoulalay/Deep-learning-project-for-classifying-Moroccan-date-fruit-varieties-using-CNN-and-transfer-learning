@@ -38,14 +38,21 @@ Number of classes: 9 varieties.
 
 # Technical Details
 Model: VGG19 pretrained on ImageNet
+
 Attention Mechanism: Color-Texture Enhanced Input (CTEI) via HSV + Gabor
+
 Input size: 224×224
+
 Preprocessing: HSV conversion , Gabor filtering (theta = 0, kernel size 21×21)
+
 Fine-Tuning Strategy: Used only the first 16 layers of VGG19 (4 convolutional blocks) to reduce the number of parameters and focus on generalizable features.
 First 13 layers were frozen, allowing the last 3 layers to adapt to task-specific patterns (color and texture).
+
 Classification head includes: GlobalAveragePooling2D , Dense(64, activation='relu', kernel_regularizer=L2(0.001)) , Dropout(0.3) , Dense(num_classes, activation='softmax')
 
 # Evaluation Protocol
 Dataset split: 70% training, 15% validation, 15% testing
+
 Evaluation metric: test set accuracy
+
 Best Accuracy: ~89.63%
